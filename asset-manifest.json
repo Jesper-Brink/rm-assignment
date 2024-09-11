@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rm-assignment/static/css/main.9b0edc86.css",
+    "main.js": "/rm-assignment/static/js/main.bba49f13.js",
+    "static/js/453.2a93a8c6.chunk.js": "/rm-assignment/static/js/453.2a93a8c6.chunk.js",
+    "static/media/adelle-regular.woff2": "/rm-assignment/static/media/adelle-regular.ba44a0125975182db7b3.woff2",
+    "static/media/adelle-bold.woff2": "/rm-assignment/static/media/adelle-bold.fbd6252663d63ef82f30.woff2",
+    "static/media/adellesans-regular.woff2": "/rm-assignment/static/media/adellesans-regular.8e2a67f5f86b709cb857.woff2",
+    "static/media/adellesans-bold.woff2": "/rm-assignment/static/media/adellesans-bold.250da297a9933caa6fc9.woff2",
+    "static/media/adellesans-light.woff2": "/rm-assignment/static/media/adellesans-light.70757197f360bb3aa3b3.woff2",
+    "index.html": "/rm-assignment/index.html",
+    "main.9b0edc86.css.map": "/rm-assignment/static/css/main.9b0edc86.css.map",
+    "main.bba49f13.js.map": "/rm-assignment/static/js/main.bba49f13.js.map",
+    "453.2a93a8c6.chunk.js.map": "/rm-assignment/static/js/453.2a93a8c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0edc86.css",
+    "static/js/main.bba49f13.js"
+  ]
+}
