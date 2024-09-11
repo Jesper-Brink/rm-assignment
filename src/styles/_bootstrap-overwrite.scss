@@ -1,0 +1,44 @@
+@import './_variables.scss';
+
+/* Overwriting bootstrap definitions */
+
+/* Buttons */
+.btn-primary { 
+  background-color: $green;
+  border-color: $green;
+
+  &:hover, &:focus {
+    background-color: rgba($green, .8);
+    border-color: rgba($green, .8);
+  }
+}
+
+.btn-info { 
+  background-color: $blue;
+  border-color: $blue;
+  color: $white;
+  border-radius: 0;
+  line-height: 15px;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+
+  &:hover, &:focus, &:focus-visible, &:first-child:active {
+    background-color: $blue;
+    border-color: $blue;
+    color: $white;
+  }
+
+  &:not(.collapsed) {
+    .bi-arrow-down-short {
+      transition: transform 0.5s;
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+/* Backgrounds */
+.bg-secondary {
+  background-color: $blue !important;
+  color: $white !important;
+}

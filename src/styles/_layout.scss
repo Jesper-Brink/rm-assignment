@@ -1,0 +1,112 @@
+
+// Logo
+.logo {
+  top: 0;
+  left: 0;
+  padding: 10px 30px 10px 30px;
+  position: relative;
+
+  @media (min-width: 992px) {
+    top: 20px;
+    position: sticky;
+  }
+
+  .flex-container {
+      height: 40px;
+      width: calc(100vw - 60px);
+      justify-content: center;
+      gap: 0;
+
+    @media (min-width: 992px) {
+      height: 70px;
+      width: 290px;
+      gap: 10px;
+    }
+  }
+ 
+  .text,
+  .logo-icon {
+    display: none;
+  }
+
+  @media (min-width: 992px) { 
+    .text {
+      display: block;
+    }
+    .logo-text {
+      display: none;
+    }
+
+    .logo-icon {
+      display: block;
+    }
+  }
+
+  &.collapsed {
+    .flex-container {
+      width: 145px;
+      height: 50px;
+    }
+
+    .logo-text {
+      display: inline-block;
+    }
+
+    .logo-icon,
+    .text {
+      display: none;
+    }
+  }
+}
+
+
+// Grid
+.grid img {
+  filter: saturate(30%)
+}
+
+// Pagination
+.pagination {
+  .btn {
+    border-radius: 0;
+    line-height: 1rem;
+    font-size: 3rem;
+    overflow: hidden;
+
+    &.prev a {
+      margin-left: 5px;
+    }
+
+    &.next a {
+      margin-left: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+
+    &.disabled, 
+    &.btn.disabled a {
+      background-color: gray;
+      color: $white;
+      opacity: .6;
+      border-color: gray;
+    }
+  }
+
+  .page-link {
+    color: $black;
+    
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .active > .page-link,
+  .page-link.active {
+    background-color: rgb(41, 174, 179);
+    border-color: rgb(41, 174, 179);
+    color: $white;
+  }
+}

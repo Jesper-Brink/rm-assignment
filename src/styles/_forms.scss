@@ -1,0 +1,83 @@
+@import './_variables.scss';
+
+form {
+  &.container-search {
+    padding: 40px;
+  }
+
+  .input, input {
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    &:focus-visible {
+      cursor: pointer;
+      appearance: none;
+      outline: 0;
+    }
+
+    &.large {
+      font-size: 1.33333rem;
+      line-height: 15px;
+      font-weight: 300;
+    }
+
+    &--dark {
+      background-color: $blue;
+      color: $white;
+      border-bottom: solid 1px $white;
+
+      &::placeholder {
+        opacity: 0.9;
+        color: $white;
+      }
+
+      &:focus {
+        border-bottom: solid 2px $white;
+      }
+    }
+
+    &--light {
+      background-color: $white;
+      border-bottom: solid 1px $black;
+      color: $black;
+    }
+
+    &:focus {
+      border-bottom: solid 2px $black;
+    }
+  }
+
+  .btn {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 7px 35px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    color: $black;
+    background-color: $white;
+    line-height: 15px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 0;
+
+    &:hover, &:focus {
+      color: $black;
+      background-color: $white;
+    }
+
+    &:focus-visible {
+      cursor: pointer;
+      appearance: none;
+      outline: 0;
+    }
+  }
+}
