@@ -1,8 +1,10 @@
 # Rick and Morty frontend assignment
 
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Frameworks
+
+The project is founded in React with the use of Bootstrap and Sass to keep things tidy.
 
 ## Available Scripts
 
